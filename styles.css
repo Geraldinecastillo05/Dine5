@@ -1,0 +1,46 @@
+body {
+               
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.audio-section, .lyrics-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.lyrics-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+mark {
+    background-color: rgb(238, 104, 216);
+    color: black;
+  }
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-right: 20px;
+    object-fit: cover;
+    border: 3px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
